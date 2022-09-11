@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/5y204b3r4vnjunw6?svg=true)](https://ci.appveyor.com/project/UralHawkies/gradlejson)
