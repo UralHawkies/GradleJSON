@@ -19,6 +19,7 @@ class MobileBankApiTestV5 {
       // Проверки
       .then()
           .statusCode(200)
+              .body(matchesJsonSchemaInClasspath("accounts.schema.json"))
           .contentType(ContentType.JSON)
           .body("every{ it.balance >= 0 }", is(true))
       ;
